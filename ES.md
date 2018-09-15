@@ -82,7 +82,7 @@ the scoring is boosted if there is exact match.
 
 Using nested queries "bool"
 should -> OR
-
+```
 GET /book/_search
 {
   "from": 0,
@@ -107,5 +107,5 @@ GET /book/_search
   },
   "size": 2000
 }
-
-"boost" score by 100 for exact match (match-phrase) otherwise use normal match query.
+```
+"boost" score by *100* for exact match (match-phrase) otherwise use normal match query.
