@@ -1,3 +1,5 @@
+#Elasticsearch Exact match
+
 We add the mapping for the fields with special configurations only.
 
 For exact match, use normalizer with lowercase filter also can add filter to convert characters automatically such as double space **\\u0020\\u0020** to one space **\\u0020** and **#** to word **number**.
