@@ -1,4 +1,4 @@
-#Elasticsearch Exact match
+# Elasticsearch Exact match
 
 We add the mapping for the fields with special configurations only.
 
