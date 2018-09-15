@@ -1,6 +1,6 @@
 We add the mapping for the fields with special configurations only.
 
-For exact match, use normalizer with lowercase filter also can add filter to convert characters automatically such as double space \\u0020\\u0020 to one space \\u0020 and # to word number.
+For exact match, use normalizer with lowercase filter also can add filter to convert characters automatically such as double space **\\u0020\\u0020** to one space **\\u0020** and **#** to word **number**.
 
 example create index "book" with type "page" and tow fields "text" and "line", we might have some other fields such as page number, line number but we are intended to use the default congiuration for them and hence Elasticsearch will configure them during indexing (data loading).
 ```
