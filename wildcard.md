@@ -55,4 +55,4 @@ GET /book/_search?pretty
 }
 ```
 
-use the ***** as a wildcard to surround the text, the text can be small or capital case since no case-sensitivty with lowercase filtering.
+use the **\*** as a wildcard to surround the text, the text can be small or capital case since no case-sensitivty with lowercase filtering.
